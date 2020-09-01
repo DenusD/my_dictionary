@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="25dp"
+    android:orientation="horizontal"
+    android:weightSum="40"
+    android:id="@+id/lineLayout">
+    <HorizontalScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:padding="2dp"
+        android:background="@drawable/only_border">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:text="Number"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:id="@+id/textNumber" />
+    </HorizontalScrollView>
+    <HorizontalScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="17"
+        android:padding="2dp"
+        android:background="@drawable/only_border">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:text="English Word"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:id="@+id/textEnglish" />
+    </HorizontalScrollView>
+    <HorizontalScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="17"
+        android:padding="2dp"
+        android:background="@drawable/only_border">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:text="Ukrainian word"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:id="@+id/textUkrainian" />
+    </HorizontalScrollView>
+
+
+</LinearLayout>

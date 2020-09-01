@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My_Dictinary</string>
+    <string-array name="sortTypes">
+        <item>Date ↑</item>
+        <item>Date ↓</item>
+        <item>A → Z</item>
+        <item>Z → A</item>
+        <item>А → Я</item>
+        <item>Я → А</item>
+    </string-array>
+</resources>
